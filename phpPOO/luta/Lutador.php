@@ -64,7 +64,7 @@ class Lutador
     $this->nome = $n;
   }
 
-  private function getNome()
+  public function getNome()
   {
     return $this->nome;
   }
@@ -125,7 +125,7 @@ class Lutador
     }
   }
 
-  private function getCategoria()
+  public function getCategoria()
   {
     return $this->categoria;
   }

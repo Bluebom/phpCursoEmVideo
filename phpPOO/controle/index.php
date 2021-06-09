@@ -14,8 +14,8 @@
   require_once 'ControleRemoto.php';
   $c = new ControleRemoto();
   $c->ligar();
-  $c->desligar();
-  for ($i = 0; $i <= 10; $i++) {
+  // $c->desligar();
+  for ($i = 0; $i <= 3; $i++) {
     $c->maisVolume();
   }
   $c->ligarMudo();

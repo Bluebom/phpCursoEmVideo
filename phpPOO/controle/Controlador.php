@@ -1,4 +1,5 @@
 <?php
+// Define o que uma entidade pode fazer com o objeto
 interface Controlador
 {
   public function ligar();
